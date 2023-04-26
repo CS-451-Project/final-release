@@ -123,7 +123,7 @@ const FundraiserDetails = () => {
           </label>
         </div>
         <div>
-          <div>
+          {/* <div>
             Fundraiser Image:
           </div>
           <div className='bg-white border-2 border-gray-300 border-dashed rounded-md hover:border-gray-400 focus:outline-none'>
@@ -148,7 +148,7 @@ const FundraiserDetails = () => {
             <div className='bg-gray-200 text-lg'>
               {file?.size > 1000000 ? "File size too large" : file != null ? file.name : "No file chosen"}
             </div>
-          </div>
+          </div> */}
           
         </div>
         
