@@ -57,45 +57,6 @@ const StepperControl = ({ handleClick, currentStep, steps }) => {
           // console.log(userData.fundraiserId)
           sessionStorage.setItem('fundraiserId', data);
           console.log("FUNDRAISER REQUEST"+sessionStorage.getItem('fundraiserId'))
-          // if(userData.FundraiserImage === undefined) {
-          //   console.log("no image")
-          // }
-          // else {
-          //   const formData = new FormData();
-          // formData.append('FundraiserImage', userData.FundraiserImage);
-          // for (const entry of formData.entries()) {
-          //   console.log(entry[0]+ ': ' + entry[1].name); 
-          // }
-          // // Add image for fundraiser
-          // userData.FundraiserImage && fetch(`https://localhost:7000/api/user/${localStorage.getItem("userId")}/fundraiser/${sessionStorage.getItem('fundraiserId')}/image`, {
-          //   method: 'POST',
-          //   headers: {
-          //     // 'Content-Type': 'multipart/form-data',
-          //     // 'Content-Type': userData.FundraiserImage.type,
-          //     // 'Content-Length': userData.FundraiserImage.size,
-          //     "Authorization": `Basic ${base64.encode(`${localStorage.getItem("AuthHeader")}`)}`
-          //   },
-          //   body: formData
-          //   })
-          //   // head
-          //   .then(response => {
-          //       if (response.ok) {
-          //       // handle successful response
-          //           console.log('File uploaded successfully');
-          //       } 
-          //       else {
-          //       // handle error response
-          //           console.error('An error occurred while uploading the file');
-          //       }
-          //   })
-          //   // body (function)
-          //   .then(data => {
-          //       console.log(data)
-          //   })
-          //   .catch(error => {
-          //       console.error('Error:', error);
-          //   });
-          // }
       })
       .catch(error => {
           console.error('Error:', error);

@@ -123,32 +123,6 @@ const FundraiserDetails = () => {
           </label>
         </div>
         <div>
-          {/* <div>
-            Fundraiser Image:
-          </div>
-          <div className='bg-white border-2 border-gray-300 border-dashed rounded-md hover:border-gray-400 focus:outline-none'>
-            <label class="flex justify-center flex-col w-full h-48 px-4 transition appearance-none cursor-pointer">        
-                <span class="flex justify-center items-center space-x-2">
-                  <div className=''>
-                    <AiOutlineCloudUpload size={24} />
-                  </div>
-                  <span class="font-medium text-gray-600">
-                      Drop JPG file to Attach, or browse
-                  </span>
-                </span>
-                <input
-                  onChange={handleFile}
-                  name="FundraiserImage"
-                  placeholder="FundraiserImage"
-                  type="file"
-                  className='hidden'
-                  accept=".jpg"
-                />
-            </label>
-            <div className='bg-gray-200 text-lg'>
-              {file?.size > 1000000 ? "File size too large" : file != null ? file.name : "No file chosen"}
-            </div>
-          </div> */}
           
         </div>
         
