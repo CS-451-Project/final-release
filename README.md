@@ -1,6 +1,6 @@
 # CS 451R Capstone Project Final Release
 
-Finished project for CS 451R capstone project. We did the bank project.
+Finished bank project for CS 451R capstone project.
 
 ## Dependencies
 
