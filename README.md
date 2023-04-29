@@ -4,7 +4,7 @@ Finished bank project for CS 451R capstone project.
 
 ## Dependencies
 
-Make sure you have the [dotnet runtimes](https://learn.microsoft.com/en-us/dotnet/core/install/windows?tabs=net70), as well as [Node.js](https://nodejs.org/en/download) installed on your machine.
+Make sure you have the [.NET runtimes](https://learn.microsoft.com/en-us/dotnet/core/install/windows?tabs=net70), as well as [Node.js](https://nodejs.org/en/download) installed on your machine.
 
 ## User Guide
 
