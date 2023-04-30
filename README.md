@@ -1,4 +1,4 @@
-# CS 451R Capstone Project Final Release - Group Hooli
+# CS 451R - Hooli Group - Capstone Project Final Release
 
 Finished bank project for CS 451R capstone project.
 
